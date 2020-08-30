@@ -1,15 +1,23 @@
 package ratz.springframework.controllers;
 
-
+import ratz.springframework.services.GreetingService;
 import org.springframework.stereotype.Controller;
 
+/**
+ * Created by jt on 5/23/17.
+ */
 @Controller
 public class MyController {
 
-    public String hello (){
-         System.out.println("Hello!!!!");
+    private GreetingService greetingService;
 
-         return "foo";
+    public MyController(GreetingService greetingService) {
+        this.greetingService = greetingService;
     }
 
+    public String hello(){
+        System.out.println("Hello!!! ");
+
+        return greetingService.sayGreeting();
+    }
 }
