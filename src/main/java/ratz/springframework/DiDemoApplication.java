@@ -8,6 +8,7 @@ import ratz.springframework.controllers.GetterInjectedController;
 import ratz.springframework.controllers.MyController;
 import ratz.springframework.controllers.PropertyInjectedController;
 import ratz.springframework.examplebeans.FakeDataSource;
+import ratz.springframework.examplebeans.FakeJmsBroker;
 
 
 @SpringBootApplication
@@ -23,6 +24,13 @@ public class DiDemoApplication {
 
         System.out.println(fakeDataSource.getUser() + " " + fakeDataSource.getPassword()
         + " " + fakeDataSource.getUrl());
+
+
+        FakeJmsBroker fakeJmsBroker = (FakeJmsBroker) ctg.getBean(FakeJmsBroker.class);
+
+        System.out.println(fakeJmsBroker.getPassword());
+
+
     }
 
 }
