@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93e0856a-c04f-4c0d-afd6-83a833a6915e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ratz/springframework/config/PropertyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ratz/springframework/examplebeans/FakeDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/datasource.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ratz/springframework/DiDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ratz/springframework/DiDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ratz/springframework/config/PropertyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ratz/springframework/config/PropertyConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,14 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ratz/springframework/DiDemoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-110">
+              <caret line="4" column="54" lean-forward="true" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -107,14 +101,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ratz/springframework/config/PropertyConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+            <state relative-caret-position="192">
+              <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#520#538#1" expanded="true" />
+                <element signature="e#673#691#1" expanded="true" />
                 <element signature="e#569#587#1" expanded="true" />
                 <element signature="e#622#637#1" expanded="true" />
               </folding>
@@ -156,8 +150,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ratz/springframework/LifeCycleDemoBean.java" />
         <option value="$PROJECT_DIR$/src/main/resources/datasource.properties" />
         <option value="$PROJECT_DIR$/src/main/java/ratz/springframework/examplebeans/FakeDataSource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ratz/springframework/config/PropertyConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/ratz/springframework/DiDemoApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ratz/springframework/config/PropertyConfig.java" />
       </list>
     </option>
   </component>
@@ -220,6 +214,15 @@
               <item name="di-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="di-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="di-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -229,13 +232,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598966491349" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598969608349" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../joke-app" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -256,6 +260,10 @@
     <configuration name="DiDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="di-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ratz.springframework.DiDemoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <envs>
+        <env name="USERNAME" value="MyOVERIDE!!!" />
+      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -274,7 +282,7 @@
       <workItem from="1598744616189" duration="4937000" />
       <workItem from="1598823365780" duration="2256000" />
       <workItem from="1598912991144" duration="523000" />
-      <workItem from="1598965386762" duration="1059000" />
+      <workItem from="1598965386762" duration="2063000" />
     </task>
     <task id="LOCAL-00001" summary="simple hello demonstrating de bean dependency and application context!">
       <created>1598746119843</created>
@@ -311,17 +319,24 @@
       <option name="project" value="LOCAL" />
       <updated>1598824995249</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="externalise properties with a small example.">
+      <created>1598966552805</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598966552805</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8775000" />
+    <option name="totallyTimeSpent" value="9779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17927383" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17927383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -330,7 +345,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42716858" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30441898" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -362,7 +377,8 @@
     <MESSAGE value="Added german dependency and default profile!" />
     <MESSAGE value="fixed a bug, working now" />
     <MESSAGE value="Added bean life cycle example with preDestroy and postConstruct anotations!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added bean life cycle example with preDestroy and postConstruct anotations!" />
+    <MESSAGE value="externalise properties with a small example." />
+    <option name="LAST_COMMIT_MESSAGE" value="externalise properties with a small example." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/ratz/springframework/services/ConstructorGreetingService.java">
@@ -536,25 +552,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ratz/springframework/config/PropertyConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ratz/springframework/DiDemoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#520#538#1" expanded="true" />
-            <element signature="e#569#587#1" expanded="true" />
-            <element signature="e#622#637#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="-110">
+          <caret line="4" column="54" lean-forward="true" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ratz/springframework/DiDemoApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ratz/springframework/config/PropertyConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        <state relative-caret-position="192">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#673#691#1" expanded="true" />
+            <element signature="e#569#587#1" expanded="true" />
+            <element signature="e#622#637#1" expanded="true" />
           </folding>
         </state>
       </provider>
