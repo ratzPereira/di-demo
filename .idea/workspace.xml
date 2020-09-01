@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93e0856a-c04f-4c0d-afd6-83a833a6915e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ratz/springframework/examplebeans/FakeJmsBroker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jms.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ratz/springframework/DiDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ratz/springframework/DiDemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ratz/springframework/config/PropertyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ratz/springframework/config/PropertyConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -111,15 +107,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ratz/springframework/config/PropertyConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            <state relative-caret-position="139">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#669#687#1" expanded="true" />
-                <element signature="e#718#736#1" expanded="true" />
-                <element signature="e#771#786#1" expanded="true" />
-                <element signature="e#946#968#1" expanded="true" />
-                <element signature="e#1006#1028#1" expanded="true" />
+                <element signature="e#901#919#1" expanded="true" />
+                <element signature="e#950#968#1" expanded="true" />
+                <element signature="e#1003#1018#1" expanded="true" />
+                <element signature="e#1101#1123#1" expanded="true" />
+                <element signature="e#1161#1183#1" expanded="true" />
+                <element signature="e#1221#1238#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -203,57 +200,6 @@
               <item name="di-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="di-demo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="di-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="di-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="di-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="di-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="di-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="di-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="di-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="di-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="di-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="di-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="di-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="di-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="examplebeans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="di-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="di-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -268,7 +214,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598970620387" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598971033933" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../joke-app" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -311,7 +257,7 @@
       <workItem from="1598744616189" duration="4937000" />
       <workItem from="1598823365780" duration="2256000" />
       <workItem from="1598912991144" duration="523000" />
-      <workItem from="1598965386762" duration="2977000" />
+      <workItem from="1598965386762" duration="3313000" />
     </task>
     <task id="LOCAL-00001" summary="simple hello demonstrating de bean dependency and application context!">
       <created>1598746119843</created>
@@ -362,17 +308,23 @@
       <option name="project" value="LOCAL" />
       <updated>1598969719019</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added example of multiple properties files">
+      <created>1598970690582</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598970690582</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10693000" />
+    <option name="totallyTimeSpent" value="11029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17927383" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17927383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -381,7 +333,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.56301147" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22422259" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -415,7 +367,8 @@
     <MESSAGE value="Added bean life cycle example with preDestroy and postConstruct anotations!" />
     <MESSAGE value="externalise properties with a small example." />
     <MESSAGE value="added environment property spring example" />
-    <option name="LAST_COMMIT_MESSAGE" value="added environment property spring example" />
+    <MESSAGE value="added example of multiple properties files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added example of multiple properties files" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/ratz/springframework/services/ConstructorGreetingService.java">
@@ -630,15 +583,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ratz/springframework/config/PropertyConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        <state relative-caret-position="139">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#669#687#1" expanded="true" />
-            <element signature="e#718#736#1" expanded="true" />
-            <element signature="e#771#786#1" expanded="true" />
-            <element signature="e#946#968#1" expanded="true" />
-            <element signature="e#1006#1028#1" expanded="true" />
+            <element signature="e#901#919#1" expanded="true" />
+            <element signature="e#950#968#1" expanded="true" />
+            <element signature="e#1003#1018#1" expanded="true" />
+            <element signature="e#1101#1123#1" expanded="true" />
+            <element signature="e#1161#1183#1" expanded="true" />
+            <element signature="e#1221#1238#1" expanded="true" />
           </folding>
         </state>
       </provider>

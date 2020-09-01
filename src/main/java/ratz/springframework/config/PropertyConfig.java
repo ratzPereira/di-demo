@@ -16,15 +16,19 @@ import ratz.springframework.examplebeans.FakeJmsBroker;
 
 
 @Configuration
+
 //@PropertySource({"classpath:datasource.properties", "classpath:jms.properties"})
-@PropertySources({
+/*@PropertySources({
         @PropertySource("classpath:datasource.properties"),
         @PropertySource("classpath:jms.properties")
-})
+
+})   WE STOPED USING THIS; REFACTOR TO APPLICATION.PROPERTIES*/
+
+
 public class PropertyConfig {
 
-    @Autowired
-    Environment env;
+    /*@Autowired
+    Environment env;    WAS JUST FOR EXAMPLE*/
 
     @Value("${ratz.username}")
     String user;
@@ -48,7 +52,7 @@ public class PropertyConfig {
     public FakeDataSource fakeDataSource(){
 
         FakeDataSource fakeDataSource = new FakeDataSource();
-        fakeDataSource.setUser(env.getProperty("USERNAME"));
+        fakeDataSource.setUser(user);
         fakeDataSource.setPassword(password);
         fakeDataSource.setUrl(url);
 
