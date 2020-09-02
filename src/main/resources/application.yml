@@ -3,3 +3,12 @@ ratz:
     username: JMS Username
     password: somepass
     url: SomeUrl
+
+--- # file separator
+
+#this will override the JMS property password in "de" profile
+spring:
+  profiles: de
+ratz:
+  jms:
+    password: somepass IN GER!!!!!
