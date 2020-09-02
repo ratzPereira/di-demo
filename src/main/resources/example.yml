@@ -1,0 +1,35 @@
+#this is a comment
+
+name: Jonny
+
+names: #comment
+  -Jonny
+  -Paul
+  -Peter
+
+pound_sign: "#"
+
+book:
+  author: Joe
+  publisher: random house
+
+truth: yes
+
+another_truth: True
+
+more_true: true
+
+false: no #no,false,FALSE
+
+string_vale: "This is it's quote"
+
+colon_string: "my stuff need to be: done"
+
+include_new_lines: |
+  assad adsd sd asd
+  sad sdasd asd
+  asdasdas
+
+ignore_new_lines: >
+  this is
+  ignored
